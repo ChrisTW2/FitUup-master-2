@@ -159,6 +159,9 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(MainActivity.this, Test.class);
                 MainActivity.this.startActivity(intent);
                 break;
+            case R.id.nav_send:
+
+                break;
             default:
                 fragmentClass = ProfileFragment.class;
 
